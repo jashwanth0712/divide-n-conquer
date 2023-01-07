@@ -1,4 +1,5 @@
 import webbrowser
+web3_storage_token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDIwMjIyOTEzZUIzNDQxQUNiOTZDYjkzNGYxNjFCMzE4NjQzYTc2ZTgiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NzMwNzA0MzQyODYsIm5hbWUiOiJkaXZpZGUnbmNvbnF1ZXIifQ.Xu-A8VuJMwbYz60gn46GIl0qAqAkvfq7jrpRlCi9pdo"
 d={
    "dataset1.csv":"bafybeigdyzkgh3lvgnqhjws4h37djirgo7d5mg4v2h2ustoqc775tqouna",
     "dataset2.csv":"bafybeic5vbddejok5m3avq5zru242qstzxwrv2acwcs4yogsb4giciepo4"
@@ -22,3 +23,6 @@ def download_next():
     file_name="dataset2.csv"
     link="https://"+d[file_name]+".ipfs.w3s.link/"+file_name
     webbrowser.open(link)
+
+def upload():
+    
